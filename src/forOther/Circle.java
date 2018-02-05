@@ -32,7 +32,7 @@ public class Circle implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         frame.repaint();
     }
-
+// comment
 }
 
 class MyDrawPanel extends JPanel {
