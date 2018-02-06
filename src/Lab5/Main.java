@@ -49,7 +49,7 @@ public class Main extends Application {
         scene.setCamera(camera);
 
         //вешаем обработчик события "клик мыши"
-       /* scene.setOnMouseClicked(event -> {
+       /*scene.setOnMouseClicked(event -> {
             Node picked = event.getPickResult().getIntersectedNode();
             //если обьект не равен нулю - будем увеливать его в два раза
             if(null !=picked) {
