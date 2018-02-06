@@ -1,4 +1,3 @@
-package com.javarush.task.task22.task2213;
 /**
  * Класс Figure описывает фигурку тетриса
  */
