@@ -28,7 +28,7 @@ public class CircleAlgoritm extends JPanel{
             g.drawLine(center_x - x, center_y - y, center_x - x, center_y - y);     // 2 четверть
             g.drawLine(center_x - x, center_y + y, center_x - x, center_y + y);     // 3 четверть
             g.drawLine(center_x + x, center_y + y, center_x + x, center_y + y);     // 4 четверть
-            sigma = 2 * (delta + y) - 1;
+            sigma = 2 * (delta + y) - 1; //формула 232 стр.  для расчета расстояния от окружности до пискеля (г, в, д)
             if (delta < 0 && sigma <= 0) {          //перемещение по горизонтали
                 x++;
                 delta += x + 1;
