@@ -7,7 +7,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class CircleAlgoritm extends JPanel{
     public static void main(String[] args) {
-        JFrame window = new JFrame("Brez");
+        JFrame window = new JFrame("Cirlce");
         window.setSize(600, 400);
         window.setContentPane(new CircleAlgoritm());
         window.setDefaultCloseOperation(EXIT_ON_CLOSE);
